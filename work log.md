@@ -191,10 +191,6 @@ curl -X POST -F image=@jemma.png 'http://imnotkind.ml:5522/predict'
 
 curl -X나 -F는 윈도우에 없어서 리눅스로 실험
 
-![1530408782299](C:\Users\haebin\AppData\Local\Temp\1530408782299.png)
-
-
-
 ###stress test
 
 ``` 
