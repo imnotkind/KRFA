@@ -158,7 +158,7 @@ localhost:5000에 hello world 뜨면 apache-wsgi 세팅 성공 확인
 
 # real game
 
-###setting
+### setting
 
 redis-server와 apache는 서비스로 설치되어 있기 때문에(설치 방법 따라 다르겠지만) 윈도우를 켜면 처음에 같이 켜짐
 
@@ -210,7 +210,7 @@ curl -X POST -F image=@jemma.png 'http://imnotkind.ml:5522/predict'
 
 curl -X나 -F는 윈도우에 없어서 리눅스로 실험, 잘 되는 것 확인
 
-###stress test(cpu)
+### stress test(cpu)
 
 ``` 
 KERAS_REST_API_URL = "http://localhost:5522/predict" 
@@ -220,7 +220,7 @@ url 바꿔주기 (내가 지정한 곳으로)
 
 cpu로 하니 avg batch size 32, 느림
 
-###stress test(gpu)
+### stress test(gpu)
 
 run_model_server.py실행하면 gpu 이름들이 나와야 함
 
